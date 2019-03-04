@@ -22,9 +22,9 @@ namespace Plus_Minus
                 else
                     zero = zero + 1;
             }
-            Console.Write(positive % length);
-            Console.Write(negative % length);
-            Console.Write(zero % length);
+            Console.WriteLine(positive / length);
+            Console.WriteLine(negative / length);
+            Console.WriteLine(zero / length);
 
         }
 
